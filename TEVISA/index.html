@@ -3,21 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Official Website for the Technical Education and Vocational Institutions Sports Association (TEVISA)">
-    <title>TEVISA Official Website</title>
+    <title>TEVISA Technical Vocation and Vocational Institutions Sports Association</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
-        <h1>(TEVISA)</h1>
+        <div class="logo">
+            <h1>TEVISA</h1>
+        </div>
+        <nav>
+            <ul>
+                <!--<li><a href="#">Home</a></li>-->
+                <li><a href="signin.html">Sign In</a></li>
+                <li><a href="admin.html">Admin Log In</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Upcoming Events</button>
+                    <div class="dropdown-content">
+                        <a href="#">Independence Events</a>
+                        <a href="#"">Fixtures</a>
+                        <a href="overview.html">Events</a>
+                    </div>
+                <!--<li><a href="#">Upcoming Events</a></li>-->
+                </div>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section>
-            <h2>WELCOME</h2>
-            <p> BROS WORK</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 TEVISA. All rights reserved.</p>
-    </footer>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>SHOW US YOUR BEST</h2>
+            <p>The world of sports. Where every stride, jump, and activity is fueled by confidence. Inspiring greatness</p>
+            <a href="#" class="live-button">LIVE STREAM!</a>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
 </body>
 </html>
